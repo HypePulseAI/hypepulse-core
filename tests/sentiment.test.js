@@ -1,0 +1,1 @@
+import { SentimentModel } from '../src/ai/models/sentiment.js'; import assert from 'node:assert'; const m = new SentimentModel(); assert.ok(m.score('pump it') > 0); assert.ok(m.score('rug pull') < 0);

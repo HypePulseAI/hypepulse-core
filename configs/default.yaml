@@ -1,0 +1,17 @@
+
+feeds:
+  twitter: true
+  telegram: true
+  reddit: true
+  tiktok: false
+ai:
+  sentiment_threshold: 0.25
+  trend_window_minutes: 45
+solana:
+  rpc_url: https://example.quiknode.pro/xxx
+  check_lp: true
+hypescore:
+  weights:
+    sentiment: 0.45
+    velocity: 0.35
+    onchain: 0.20

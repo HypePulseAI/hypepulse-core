@@ -1,0 +1,16 @@
+{
+  "name": "hypepulse-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/api/server.js",
+    "test": "node --test tests"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "yaml": "^2.4.3"
+  }
+}

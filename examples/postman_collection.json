@@ -1,0 +1,21 @@
+{
+  "info": {
+    "name": "HypePulse API"
+  },
+  "item": [
+    {
+      "name": "Signals",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/signals"
+      }
+    },
+    {
+      "name": "Trending",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/trending"
+      }
+    }
+  ]
+}

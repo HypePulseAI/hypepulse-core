@@ -1,0 +1,6 @@
+requests
+pydantic
+numpy
+pandas
+pyyaml
+textblob

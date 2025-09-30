@@ -1,0 +1,1 @@
+import { HypeScorer } from '../src/ai/models/hypescore.js'; import assert from 'node:assert'; const s = new HypeScorer(); const score = s.score({sentiment:0.8, velocity:2.0, onchain:1}); assert.ok(score > 0);

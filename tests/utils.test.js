@@ -1,0 +1,1 @@
+import { words } from '../src/utils/parser.js'; import { smoothEMA } from '../src/ai/smoothing.js'; import assert from 'node:assert'; assert.deepStrictEqual(words('a b  c'), ['a','b','c']); const s = smoothEMA([1,2,3,4], 0.5); assert.equal(s.length, 4);
